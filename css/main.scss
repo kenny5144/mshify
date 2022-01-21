@@ -29,7 +29,7 @@ ol {
   background-color: black;
   height: 800px;
   width: 100%;
-  display: flex;
+  transform: skewY(25deg);
   padding-top: 12em;
   padding-left: 21rem;
   h1 {
@@ -37,13 +37,14 @@ ol {
     font-family: "inter";
     font-size: 80px;
     font-weight: 80rem bold;
+    display: flex;
   }
   p {
     color: #b9c3cf;
     font-size: 20px;
   }
-  position: relative;
 }
+
 .cloud-sec {
   width: 40%;
 }
