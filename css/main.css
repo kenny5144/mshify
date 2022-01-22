@@ -33,14 +33,14 @@ ol li a {
 
 .title {
   background-color: black;
+  position: relative;
   height: 800px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-top: 12em;
-  padding-left: 21rem;
-  position: relative;
+  padding-left: 30rem;
 }
 
 .title h1 {
@@ -60,10 +60,8 @@ ol li a {
 }
 
 .title-banner {
-  font-size: 20%;
-  position: absolute;
-  top: 3rem;
-  right: 16rem;
+  position: relative;
+  top: 2%;
 }
 
 .btn-sec {
