@@ -95,7 +95,6 @@ body {
 }
 
 #cards-sec {
-  background-color: white;
   text-align: center;
 }
 
@@ -173,16 +172,47 @@ body {
   padding: 0 10px;
 }
 
-.cards {
-  display: inline-block;
+#card-present {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.header-sec {
-  background-color: black;
+.cards {
+  margin: 1rem;
+  width: 10%;
+  text-align: left;
+}
+
+.header {
+  background-color: #00d9ff;
+  border-radius: 0.8rem 0.8rem 0 0;
+  margin-top: 1rem;
+  height: 50%;
   color: white;
 }
 
-.card-three {
-  margin-top: 4rem;
+.header h3 {
+  font-size: 14px;
+  padding-top: 2rem;
+}
+
+.header2 {
+  background-color: #2584ff;
+  color: white;
+  border-radius: 0.8rem 0.8rem 0 0;
+  height: 50%;
+  padding-left: 1.5rem;
+}
+
+.card-price {
+  font-size: 50px;
+}
+
+.off-btn {
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
