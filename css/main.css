@@ -1,5 +1,6 @@
 :root {
   --primary-color: #1b0760;
+  --secondary--color: #918ca4;
 }
 
 body {
@@ -227,5 +228,97 @@ body {
   background-color: #03c2e3;
   margin-left: 1rem;
   font-size: 14px;
+}
+
+.uses-title {
+  color: var(--primary-color);
+}
+
+.uses-title h3 {
+  font-size: 2.9 rem;
+  margin-bottom: 0;
+}
+
+.uses-title p {
+  font-size: 20px;
+  color: var(--secondary--color);
+}
+
+.uses {
+  text-align: center;
+}
+
+.uses-icon {
+  width: 1.5rem;
+  -webkit-filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg) brightness(87%) contrast(156%);
+          filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg) brightness(87%) contrast(156%);
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.uses-img {
+  width: 30rem;
+}
+
+.uses-sec {
+  margin-top: 2rem;
+  width: 40%;
+}
+
+.uses-sec h5 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.uses-sec p {
+  color: var(--secondary--color);
+  margin-top: 0.6rem;
+}
+
+.subuse-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.main-use {
+  width: 50%;
+  margin: auto;
+}
+
+.uses-diff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 6rem;
+}
+
+.second {
+  width: 30rem;
+  margin-right: 2rem;
+}
+
+.uses-main {
+  margin-top: 2rem;
+  width: 40%;
+  text-align: left;
+  margin-left: 3rem;
+}
+
+.uses-main h5 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.uses-main p {
+  color: var(--secondary--color);
+  margin-top: 0.6rem;
 }
 /*# sourceMappingURL=main.css.map */

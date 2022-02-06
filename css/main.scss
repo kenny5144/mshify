@@ -1,5 +1,6 @@
 :root {
   --primary-color: #1b0760;
+  --secondary--color: #918ca4;
 }
 body {
   margin: 0;
@@ -194,4 +195,79 @@ body {
   margin-left: 1rem;
 
   font-size: 14px;
+}
+//uses title sec
+.uses-title {
+  color: var(--primary-color);
+  h3 {
+    font-size: 2.9 rem;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 20px;
+    color: var(--secondary--color);
+  }
+}
+// uses sections
+.uses {
+  text-align: center;
+}
+.uses-icon {
+  width: 1.5rem;
+  filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg)
+    brightness(87%) contrast(156%);
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.uses-img {
+  width: 30rem;
+}
+//maincss
+.uses-sec {
+  margin-top: 2rem;
+  width: 40%;
+  h5 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin: 0;
+  }
+  p {
+    color: var(--secondary--color);
+    margin-top: 0.6rem;
+  }
+}
+.subuse-sec {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.main-use {
+  width: 50%;
+  margin: auto;
+}
+//second side of flex
+.uses-diff {
+  display: flex;
+  margin-top: 6rem;
+}
+.second {
+  width: 30rem;
+  margin-right: 2rem;
+}
+
+.uses-main {
+  margin-top: 2rem;
+  width: 40%;
+  text-align: left;
+  margin-left: 3rem;
+  h5 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin: 0;
+  }
+  p {
+    color: var(--secondary--color);
+    margin-top: 0.6rem;
+  }
 }
