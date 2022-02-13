@@ -12,15 +12,15 @@ body {
   background-color: black;
   width: 100vw;
   height: 800px;
-  position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 89%, 0 100%);
 }
 
 .first-nav {
   display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
   justify-content: space-between;
-  width: 50%;
-  margin-left: 30em;
 }
 .first-image {
   cursor: pointer;
@@ -34,7 +34,6 @@ body {
 .lil-links li a {
   color: #d2d0db;
   text-decoration: none;
-  cursor: pointer;
 }
 .lil-links li a:hover {
   color: blue;
@@ -45,7 +44,7 @@ body {
 .title {
   display: flex;
 
-  margin-left: 30rem;
+  margin-left: 20rem;
   margin-top: 6rem;
 }
 .cloud-sec {
@@ -79,6 +78,7 @@ body {
 .title-banner {
   position: relative;
   bottom: 10rem;
+  right: 5rem;
 }
 
 //the next section including the cards
@@ -193,14 +193,14 @@ body {
   border-radius: 50px;
   background-color: #03c2e3;
   margin-left: 1rem;
-
   font-size: 14px;
 }
 //uses title sec
 .uses-title {
   color: var(--primary-color);
+  margin-top: 6rem;
   h3 {
-    font-size: 2.9 rem;
+    font-size: 2.9rem;
     margin-bottom: 0;
   }
   p {
@@ -243,7 +243,7 @@ body {
   margin-top: 5rem;
 }
 .main-use {
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 //second side of flex
@@ -271,3 +271,57 @@ body {
     margin-top: 0.6rem;
   }
 }
+//pannel secc
+.pannel {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 700px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
+
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 4rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+.pannel-flex {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 40rem;
+    padding-right: 1rem;
+  }
+  margin-left: 15rem;
+}
+
+.pannel-featuresimage {
+  filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg)
+    brightness(87%) contrast(156%);
+  img {
+    width: 3rem;
+    padding: 1.3rem;
+  }
+}
+
+.pannel-features {
+  text-align: left;
+  width: 50%;
+  h6 {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  p {
+    color: var(--secondary--color);
+    font: 0.8rem;
+  }
+}
+.pannel-uses {
+  display: flex;
+  margin-top: 1.2rem;
+}
+// testimonail sec
