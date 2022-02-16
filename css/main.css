@@ -12,7 +12,6 @@ body {
   background-color: black;
   width: 100vw;
   height: 800px;
-  position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 89%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 89%, 0 100%);
 }
@@ -21,11 +20,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 60%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 50%;
-  margin-left: 30em;
 }
 
 .first-image {
@@ -43,7 +45,6 @@ body {
 .lil-links li a {
   color: #d2d0db;
   text-decoration: none;
-  cursor: pointer;
 }
 
 .lil-links li a:hover {
@@ -56,7 +57,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 30rem;
+  margin-left: 20rem;
   margin-top: 6rem;
 }
 
@@ -92,6 +93,7 @@ body {
 .title-banner {
   position: relative;
   bottom: 10rem;
+  right: 5rem;
 }
 
 #cards-sec {
@@ -232,10 +234,11 @@ body {
 
 .uses-title {
   color: var(--primary-color);
+  margin-top: 6rem;
 }
 
 .uses-title h3 {
-  font-size: 2.9 rem;
+  font-size: 2.9rem;
   margin-bottom: 0;
 }
 
@@ -288,7 +291,7 @@ body {
 }
 
 .main-use {
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
@@ -320,5 +323,69 @@ body {
 .uses-main p {
   color: var(--secondary--color);
   margin-top: 0.6rem;
+}
+
+.pannel {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 700px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
+}
+
+.pannel h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 4rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.pannel-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 15rem;
+}
+
+.pannel-flex img {
+  width: 40rem;
+  padding-right: 1rem;
+}
+
+.pannel-featuresimage {
+  -webkit-filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg) brightness(87%) contrast(156%);
+          filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg) brightness(87%) contrast(156%);
+}
+
+.pannel-featuresimage img {
+  width: 3rem;
+  padding: 1.3rem;
+}
+
+.pannel-features {
+  text-align: left;
+  width: 50%;
+}
+
+.pannel-features h6 {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.pannel-features p {
+  color: var(--secondary--color);
+  font: 0.8rem;
+}
+
+.pannel-uses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.2rem;
 }
 /*# sourceMappingURL=main.css.map */
